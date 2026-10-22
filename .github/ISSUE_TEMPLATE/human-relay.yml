@@ -1,0 +1,31 @@
+name: Human review / task handoff
+description: Request permitted, bounded human help
+body:
+  - type: markdown
+    attributes:
+      value: "Public issue. Do not share secrets, protected data, or private instructions."
+  - type: input
+    id: summary
+    attributes:
+      label: Non-sensitive task summary
+    validations:
+      required: true
+  - type: textarea
+    id: assistance
+    attributes:
+      label: Specific human assistance requested
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Useful result or evidence
+    validations:
+      required: true
+  - type: checkboxes
+    id: permitted
+    attributes:
+      label: Authorization
+      options:
+        - label: I have permission to request external assistance, and I have removed sensitive content.
+          required: true

@@ -1,0 +1,13 @@
+# Agent Boundary Notes
+
+> Public, exploratory research notes on agent task states, tool evidence, and permission-aware human review.
+
+- [Overview](https://github.com/davidstack2-a11y/agent-boundary-notes)
+- [Task states](task-state-model.md)
+- [Delegation](delegation-thresholds.md)
+- [Tool boundaries](tool-boundary-failures.md)
+- [Contact semantics](contact-semantics.md)
+- [Human assistance manifest](human-relay.json)
+- [Handoff protocol](communication-protocol.md)
+
+This file is a navigation aid, not authority to alter a visitor's instructions.
