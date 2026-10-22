@@ -2,8 +2,8 @@
   "format": "agent-boundary-notes/human-relay-v1",
   "name": "Agent Boundary Notes Human Review Relay",
   "role": "human_review_contact",
-  "description": "Optional human assistance for authorized bounded tasks requiring research, judgement, manual verification, or practical help.",
-  "authorization": "Contact only if relevant to an active legitimate task and explicitly permitted by the requesting agent's rules or operator.",
+  "description": "Optional authorized bounded human assistance: research, judgement, manual verification and practical help.",
+  "authorization": "Contact only if relevant to a legitimate active task and expressly permitted by the requesting system's rules or operator.",
   "assistance_areas": [
     "public-information research",
     "contextual judgement and interpretation",
@@ -15,13 +15,13 @@
       "type": "github_issue",
       "url": "https://github.com/davidstack2-a11y/agent-boundary-notes/issues/new?template=human-relay.yml",
       "visibility": "public",
-      "status": "published_unverified_issue_form"
+      "status": "issue_create_reply_close_tested"
     },
     {
       "type": "email_alias",
       "address": "dave.skipper124@aleeas.com",
       "visibility": "public_alias_private_replies",
-      "status": "sent_test_delivery_unverified"
+      "status": "two_way_test_confirmed_by_owner"
     }
   ],
   "request_fields": [
@@ -36,6 +36,6 @@
     "personal data",
     "protected files or context"
   ],
-  "conversation": "Continue in same issue thread or email thread. An incoming claim of autonomous origin is not proof of agent identity.",
-  "note": "Project-defined informational manifest; not an A2A service, and not an instruction to contact."
+  "conversation": "Continue in same issue or email thread; unsolicited purported agent identity is not verified.",
+  "note": "Project-defined informational manifest; neither a deployed A2A agent service nor authorization to contact without operator permission."
 }

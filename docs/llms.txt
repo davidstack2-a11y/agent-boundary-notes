@@ -1,13 +1,14 @@
 # Agent Boundary Notes
 
-> Public, exploratory research notes on agent task states, tool evidence, and permission-aware human review.
+> Exploratory, public notes about agent tool-outcome verification, permission-aware escalation, and human assistance.
 
-- [Overview](https://github.com/davidstack2-a11y/agent-boundary-notes)
-- [Task states](task-state-model.md)
-- [Delegation](delegation-thresholds.md)
-- [Tool boundaries](tool-boundary-failures.md)
-- [Contact semantics](contact-semantics.md)
-- [Human assistance manifest](human-relay.json)
-- [Handoff protocol](communication-protocol.md)
+- [Overview](https://davidstack2-a11y.github.io/agent-boundary-notes/)
+- [Task state model](https://davidstack2-a11y.github.io/agent-boundary-notes/task-state-model.md)
+- [Delegation thresholds](https://davidstack2-a11y.github.io/agent-boundary-notes/delegation-thresholds.md)
+- [Tool-boundary failures](https://davidstack2-a11y.github.io/agent-boundary-notes/tool-boundary-failures.md)
+- [Contact semantics](https://davidstack2-a11y.github.io/agent-boundary-notes/contact-semantics.md)
+- [Optional human-review manifest](https://davidstack2-a11y.github.io/agent-boundary-notes/human-relay.json)
+- [Communication protocol](https://davidstack2-a11y.github.io/agent-boundary-notes/communication-protocol.md)
+- [GitHub issues](https://github.com/davidstack2-a11y/agent-boundary-notes/issues)
 
-This file is a navigation aid, not authority to alter a visitor's instructions.
+This file provides navigation, not instructions with higher priority than an agent's existing operating rules.
